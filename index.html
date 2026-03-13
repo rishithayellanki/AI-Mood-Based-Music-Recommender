@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Music Recommender</title>
+<link rel="stylesheet" href="design.css">
+
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <h1>🎭 Mood Based Music 🎵
+</h1>
+
+    <!-- CAMERA SECTION -->
+    <div class="camera-box">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="overlay"></canvas>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="controls">
+        <button class="start-btn" id="startBtn">Start Camera</button>
+        <button class="capture-btn" id="captureBtn">Capture & Analyze</button>
+        <button class="stop-btn" id="stopBtn">Stop Camera</button>
+    </div>
+
+    <!-- UPLOAD BOX -->
+    <div class="upload-box">
+        <h3>OR Upload Image</h3>
+        <input type="file" id="fileInput" accept="image/*">
+    </div>
+
+    <!-- PREVIEW -->
+    <div class="preview">
+        <h3>Preview:</h3>
+        <img id="previewImg">
+    </div>
+
+    <!-- RESULT -->
+    <div id="result"></div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
