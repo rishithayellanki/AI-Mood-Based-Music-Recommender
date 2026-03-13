@@ -5,6 +5,11 @@ The system analyzes facial expressions using **Gemini AI** and suggests suitable
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![AI](https://img.shields.io/badge/AI-Gemini-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## 🚀 Features
 
 * 📷 **Real-time Camera Capture** – Capture images directly using the browser camera
@@ -15,6 +20,22 @@ The system analyzes facial expressions using **Gemini AI** and suggests suitable
 * 🌐 **Interactive Frontend** – Simple and responsive UI using HTML, CSS, and JavaScript
 
 ---
+## 🏗 System Architecture
+
+Frontend (HTML, CSS, JavaScript)
+        │
+        ▼
+FastAPI Backend
+        │
+        ▼
+Gemini AI API
+        │
+        ▼
+Emotion Detection
+        │
+        ▼
+Music Recommendation (YouTube Playlist)
+
 
 ## 🧠 How It Works
 
@@ -68,6 +89,12 @@ mood-music-recommender-ai
 ```
 
 ---
+## ⭐ Project Highlights
+
+- AI-powered emotion detection from facial images
+- Real-time camera capture and image upload
+- Mood-based music recommendation system
+- Built using FastAPI and Gemini AI
 
 ## ⚙️ Installation & Setup
 
